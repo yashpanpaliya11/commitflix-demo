@@ -2,7 +2,7 @@
 
 This is a separate, public demo project for the published [`commitflix`](https://www.npmjs.com/package/commitflix) npm package. Its build imports `createDemo`, `history`, `git`, and `diff` from the installed package to generate a four-commit timeline, live snapshot previews, and comparison patches. The deployed page is a prebuilt walkthrough of that real generated data.
 
-**Live demo:** Deployment pending the first npm package release.
+**Live demo:** https://commitflix-demo.vercel.app
 
 ## Run the actual CLI locally
 
@@ -15,7 +15,7 @@ npm install
 npm run demo
 ```
 
-After the npm release, the last command will run the **installed npm package** and open its local dashboard with four sample commits. Pick two commits and click **Play both** to launch independent previews. `Ctrl+C` cleans up the disposable worktrees. To inspect this repository's own timeline, run `npm run start` or `npm run doctor`.
+The last command runs the **installed npm package** and opens its local dashboard with four sample commits. Pick two commits and click **Play both** to launch independent previews. `Ctrl+C` cleans up the disposable worktrees. To inspect this repository's own timeline, run `npm run start` or `npm run doctor`.
 
 ## Build the hosted walkthrough
 
