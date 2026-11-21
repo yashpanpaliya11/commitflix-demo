@@ -1,0 +1,17 @@
+{
+  "name": "commitflix-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Installable CommitFlix demo and live sample-commit walkthrough",
+  "dependencies": { "commitflix": "0.1.0" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs",
+    "demo": "commitflix demo",
+    "doctor": "commitflix doctor",
+    "timeline": "commitflix log --limit 20",
+    "start": "commitflix --no-open"
+  },
+  "engines": { "node": ">=22" }
+}
